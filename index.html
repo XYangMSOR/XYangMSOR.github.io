@@ -14,10 +14,10 @@
   <style>
     :root {
       --page-width: 1120px;
-      --text: #18232f;
+      --text: #111111;
       --muted: #52616d;
       --line: #d5dde4;
-      --link: #195b8a;
+      --link: #164469;
       --soft-bg: #f4f7f9;
     }
 
@@ -192,12 +192,12 @@
       flex: 0 0 auto;
       white-space: nowrap;
       font-weight: 400;
-      color: var(--muted);
+      color: var(--text);
     }
 
     .subline {
       margin-top: 2px;
-      color: #222222;
+      color: var(--text);
     }
 
     .publication-list {
@@ -230,7 +230,7 @@
 
     .grant-table th {
       font-size: 16px;
-      color: var(--muted);
+      color: var(--text);
     }
 
     .footer {
@@ -327,7 +327,6 @@
     }
 
     /* 2026 polish: accessible links, responsive grants, and navigation */
-    body { -webkit-font-smoothing: antialiased; }
     a { text-decoration-thickness: 1px; text-underline-offset: 3px; }
     a:hover { color: #9b322e; }
     a:focus-visible {
